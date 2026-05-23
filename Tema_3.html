@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIRTUALIZACIÓN</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+<header>
+    <div>
+
+    <h1 class="titulo-logo">
+
+        <img src="IMAS/Virtualizacion.jpeg" alt="Virtualizacion">
+
+        VIRTUALIZACIÓN
+
+    </h1>
+
+    </div>
+
+    <nav>
+        <a href="Blog_Academico.html">INICIO</a>
+        <a href="Tema_1.html">HW</a>
+        <a href="Tema_2.html">SO</a>
+        <a href="Tema_3.html">VT</a>
+        <a href="Tema_4.html">BD</a>
+        <a href="Tema_5.html">RDD</a>
+    </nav>
+</header>
+
+<main class="pagina-tema">
+    <section>
+        <h2>Explicación del concepto</h2>
+        <p>La virtualización consiste en crear entornos simulados dentro de un mismo equipo físico. Esto permite que una computadora o servidor pueda funcionar como si fueran varias máquinas diferentes, cada una con su propio sistema operativo y aplicaciones.</p>
+        <p>Para lograrlo se utiliza un programa llamado hipervisor, que se encarga de administrar las máquinas virtuales y repartir los recursos del hardware, como memoria, almacenamiento y procesador.</p>
+    </section>
+
+    <section>
+        <h2>Ejemplo práctico o aplicación</h2>
+        <p>Un ejemplo es una empresa que antes necesitaba varios servidores físicos: uno para correo, otro para base de datos y otro para página web. Con la virtualización puede usar un solo servidor físico y crear varias máquinas virtuales para cada servicio, ahorrando espacio, energía y mantenimiento.</p>
+    </section>
+
+    <section>
+        <h2>Recurso multimedia</h2>
+        <img src="IMAS/Ejemplo-Virtualizacion.jpeg" alt="Ejemplo de virtualización de servidores">
+    </section>
+
+    <section>
+        <h2>Reflexión personal</h2>
+        <p>Elegí este tema porque demuestra cómo la tecnología puede aprovechar mejor los recursos. La virtualización ayuda a reducir costos y facilita la administración de sistemas. Me parece útil porque actualmente muchas empresas dependen de servidores virtuales para trabajar de forma más rápida y segura.</p>
+    </section>
+</main>
+
+
+<footer>
+
+    <div class="footer-contenido">
+
+        <div class="footer-info">
+            <h2>Mi Blog Académico</h2>
+
+            <p><strong>Curso:</strong> Introducción a los Sistemas de Cómputo</p>
+
+            <p><strong>Universidad:</strong> UMG</p>
+
+            <p><strong>Correo:</strong> ccarranzag5@miumg.edu.gt</p>
+
+            <p><strong>Año:</strong> 2026</p>
+        </div>
+
+        <div class="footer-frases">
+
+            <div class="footer-frase">
+                <p>
+                    “Cada tema aprendido es un paso más para seguir creciendo como estudiante y futuro profesional.”
+                </p>
+            </div>
+
+            <div class="footer-Versiculo">
+                <p>
+                    "Pero los que esperan a Jehová tendrán nuevas fuerzas; levantarán alas como las águilas; correrán, y no se cansarán; caminarán, y no se fatigarán." (Isaías 40:31)
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+
+</footer>
+
+<script>
+window.addEventListener("scroll", function () {
+
+    const nav = document.querySelector("nav");
+
+    if (window.scrollY > 80) {
+        nav.classList.add("encogido");
+    } else {
+        nav.classList.remove("encogido");
+    }
+
+});
+</script>
+
+</body>
+</html>

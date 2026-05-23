@@ -2,11 +2,137 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Hola Mundo AFDFAKJBHSKJAB</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MI BLOG ACADEMICO</title>
+    <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
 
-    <h1>¡Hola Mundo!</h1>
+<header>
+    <div>
+    <h1 class="titulo-logo">
+    <img src="IMAS/Logo_Computadora.png" alt="Logo computadora">
+    MI BLOG ACADEMICO</h1>
+    </div>
+
+    <nav>
+        <a href="Blog_Academico.html">INICIO</a>
+        <a href="Tema_1.html">HW</a>
+        <a href="Tema_2.html">SO</a>
+        <a href="Tema_3.html">VT</a>
+        <a href="Tema_4.html">BD</a>
+        <a href="Tema_5.html">RDD</a>
+    </nav>
+</header>
+
+<main>
+    <section class="presentacion">
+        <h2>Presentación del blog</h2>
+        <p>
+        ¡Bienvenido a mi blog académico! Aunque muchas veces uno piensa que todos los temas de un curso son aburridos, siempre hay algunos que de verdad llaman la atención y hacen que uno sí quiera poner atención en clase. <br>
+
+        En este blog voy a hablar sobre mis 5 temas favoritos del curso, los que más me gustaron y con los que más aprendí durante el semestre. Algunos fueron interesantes desde el principio y otros poco a poco les fui agarrando el sentido hasta que terminé entendiéndolos mejor. <br>
+
+        La idea de este blog es compartir mi experiencia como estudiante de primer semestre de una manera sencilla y fácil de entender, hablando sobre los temas que más me dejaron aprendizaje durante el curso.
+        </p>
+    </section>
+
+    <div class="titulo-seccion">
+    <h1>Mis 5 temas favoritos</h1>
+    <p>
+        Estos son los temas que más me llamaron la atención durante el curso
+        y con los que más aprendí en el semestre.
+    </p>
+    </div>
+
+    <section class="contenedor-temas">
+        <article class="tarjeta">
+            <h3>HARDWARE</h3>
+            <img src="IMAS/Hardware.jpeg" alt="Hardware">
+            <p>Conoce los componentes físicos de una computadora y cómo permiten su funcionamiento.</p>
+            <a href="Tema_1.html">Leer más</a>
+        </article>
+
+        <article class="tarjeta">
+            <h3>SISTEMAS OPERATIVOS</h3>
+            <img src="IMAS/Sistemas_Operativos.jpeg" alt="Sistemas Operativos">
+            <p>Descubre cómo el sistema operativo administra recursos y permite el funcionamiento del equipo.</p>
+            <a href="Tema_2.html">Leer más</a>
+        </article>
+
+        <article class="tarjeta">
+            <h3>VIRTUALIZACIÓN</h3>
+            <img src="IMAS/Virtualizacion.jpeg" alt="Virtualizacion">
+            <p>Aprende cómo una sola máquina puede crear varios entornos digitales de forma eficiente.</p>
+            <a href="Tema_3.html">Leer más</a>
+        </article>
+
+        <article class="tarjeta">
+            <h3>BASES DE DATOS</h3>
+            <img src="IMAS/Bases_de_datos.jpeg" alt="bases de datos">
+            <p>Explora cómo se almacena y organiza la información dentro de sistemas digitales.</p>
+            <a href="Tema_4.html">Leer más</a>
+        </article>
+
+        <article class="tarjeta">
+            <h3>REPRESENTACION DE DATOS</h3>
+            <img src="IMAS/datos.jpeg" alt="Representación de datos">
+            <p>Comprende cómo las computadoras convierten información en lenguaje binario para procesarla.</p>
+            <a href="Tema_5.html">Leer más</a>
+        </article>
+    </section>
+</main>
+
+
+<footer>
+
+    <div class="footer-contenido">
+
+        <div class="footer-info">
+            <h2>Mi Blog Académico</h2>
+
+            <p><strong>Curso:</strong> Introducción a los Sistemas de Cómputo</p>
+
+            <p><strong>Universidad:</strong> UMG</p>
+
+            <p><strong>Correo:</strong> ccarranzag5@miumg.edu.gt</p>
+
+            <p><strong>Año:</strong> 2026</p>
+        </div>
+
+        <div class="footer-frases">
+
+            <div class="footer-frase">
+                <p>
+                    “Cada tema aprendido es un paso más para seguir creciendo como estudiante y futuro profesional.”
+                </p>
+            </div>
+
+            <div class="footer-Versiculo">
+                <p>
+                    "Pero los que esperan a Jehová tendrán nuevas fuerzas; levantarán alas como las águilas; correrán, y no se cansarán; caminarán, y no se fatigarán." (Isaías 40:31)
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+
+</footer>
+
+<script>
+window.addEventListener("scroll", function () {
+
+    const nav = document.querySelector("nav");
+
+    if (window.scrollY > 80) {
+        nav.classList.add("encogido");
+    } else {
+        nav.classList.remove("encogido");
+    }
+
+});
+</script>
 
 </body>
 </html>
